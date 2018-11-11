@@ -133,6 +133,11 @@ article.post{
 	padding-bottom:20px;
 }
 
+article .post-thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
 article.post .meta{
 	background:#009acd;
 	color:#fff;
@@ -181,4 +186,9 @@ footer.main-footer li{
 
 footer.main-footer a{
 	color:#fff;
+}
+
+.archive-post h4, .archive-post p {
+  margin: 0;
+  padding: 0;
 }
